@@ -1,14 +1,14 @@
-const zodiac: HTMLSelectElement = document.getElementById("zodiac") as HTMLSelectElement;
+const zodiac = document.getElementById("zodiac");
 
-const body: HTMLBodyElement = document.body as HTMLBodyElement;
+const body = document.body;
 
-const changeBackground = (): void => {
+const changeBackground = () => {
     switch (zodiac.value) {
         case "aries":
             body.style.backgroundColor = "#fc0303";
             break;
 
-        case "taurus":
+        case "tarus":
             body.style.backgroundColor = "#03fc6f";
             break;
 
